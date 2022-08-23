@@ -1,29 +1,35 @@
+
 {% extends "base.html" %}
 {% load static %}
 
-
 {% block body %}
 
- <section class="services-area margintop">
+
+ <!-- header-area -->
+
+
+    <!-- services-area -->
+    <section class="services-area margintop">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="title">
-                        <h2>ARTIFICIAL INTELLIGENCE (AI)</h2>
+                        <h2>SERVER MANAGEMENT</h2>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="service-con">
                         <div class="content">
-                            <p>AI has become a catchall term for applications that perform complex tasks that once required human input such as communicating with customers online or playing chess. The term is often used interchangeably with its subfields,
-                                which include machine learning and deep learning. There are differences, however. For example, machine learning is focused on building systems that learn or improve their performance based on the data they consume. It’s
-                                important to note that although all machine learning is AI, not all AI is machine learning.</p>
+                            <p>Companies depend on their server infrastructure for most IT functions, including data storage, hosting websites, emails, and applications. While many businesses have shifted to cloud services using servers located in enormous,
+                                distant data centers, a significant number of organizations still have in-house servers or use a hybrid environment of in-house and cloud services to host server data requiring management. Managing a server, whether in-house
+                                or in the cloud, means staying on top of hardware, software, security, and backups. In this guide, I explore how to best manage servers with an understanding of today’s server technology, security concerns, and touch on
+                                the importance of having the right server monitoring software to support your efforts.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="content">
-                        <img class="img-fluid" src="{% static 'img/CMCN.gif' %}" alt="">
+                        <img class="img-fluid" src="{% static 'img/NLuD.gif' %}" alt="">
                     </div>
                 </div>
             </div>
@@ -34,6 +40,7 @@
 
     <!-- Our Services -->
    {% include "home_app/service.html" %}
+
     
     <!-- Our Services -->
 
@@ -63,13 +70,9 @@
             </div>
         </div>
     </section>
-
-{% endblock body %}
-    <!-- services-area -->
-   
     <!-- newsletter -->
 
 
+{% endblock body %}
+   
 
-    <!-- footer-area -->
-    

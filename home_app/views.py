@@ -24,3 +24,12 @@ def ServiceSoftQA(request):
 
 def ServiceWebDesign(request):
     return render(request,'home_app/web-design-development.html')
+
+def ContactView(request):
+    return render(request,'home_app/contact.html')
+
+def OCRView(request):
+    return render(request,'home_app/ocr.html')
+
+def ServerManagementView(request):
+    return render(request,'home_app/server-management.html')
